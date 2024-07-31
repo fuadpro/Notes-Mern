@@ -29,7 +29,6 @@ import {
 import { Spinner } from "@/components/ui/spinner";
 import { SubmitHandler, useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import { c } from "node_modules/vite/dist/node/types.d-aGj9QkWt";
 
 export default function NotesComponent() {
   const [isCreateNoteModalOpen, setIsCreateNoteModalOpen] = useState(false);
